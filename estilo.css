@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+}
+
+
+.logo-img{
+    width: 100px;
+    height: 80px;
+}
+
+.header10 {
+    background-color: rgb(18, 159, 241);
+    height: 80px;
+    width: 100%;
+    padding: 0;
+}
+
+.logo5{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 0;
+    line-height: 800px;
+    display: flex;
+    justify-content: space-between;
+    max-width: auto;
+    line-height: 75px;
+    text-align: center;
+    border-style:dashed
+}
+
+.lapregunta{
+    text-align: center;
+
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.boton1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 80px;
+    background: pink;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 70px;
+
+}
+
+.boton1 span {
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.boton1::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: rgb(132, 81, 252);
+    position: absolute;
+    z-index: 1;
+    top: -80px;
+    left: 0;
+    transition: .3s ease-in-out all;
+    border-radius: 5px;
+}
+
+.boton1:hover::after {
+    top: 0;
+}
+
+.boton2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 80px;
+    background: pink;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 70px;
+
+}
+
+.boton2 span {
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.boton2::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transition: .3s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center;
+}
+
+.boton2:hover::after {
+    transform: scale(450);
+    background: rgb(132, 81, 252);
+
+}
+
+.boton3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+    height: 80px;
+    background: pink;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 70px;
+
+}
+
+.boton3 span {
+    position: relative;
+    z-index: 2;
+    transition: .3s ease all;
+}
+
+.boton3::after {
+    content: "";
+    width: 100%;
+    height: 300px;
+    background: rgb(132, 81, 252);
+    position: absolute;
+    z-index: 1;
+    top: -300px;
+    left: 0;
+    transition: .4s ease-in-out all;
+    border-radius: 0px 0px 300px 300px;
+}
+
+.boton3:hover::after {
+    top: 0;
+
+}
